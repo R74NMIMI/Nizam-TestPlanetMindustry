@@ -3,6 +3,6 @@ name: "test"
 subtitle: "Hello"
 displayName: "Test" 
 description: "My new planet mod!"
-author: "[sky]R74n [blue]Mi Mi"
+author: "[royal[]]R74n [blue[]]Mi Mi"
 version: "1"
 hidden: false //(true - доступен, false - недоступен)
