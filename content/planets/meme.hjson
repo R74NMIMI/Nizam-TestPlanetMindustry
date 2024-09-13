@@ -2,7 +2,7 @@ generator: SerpuloPlanetGenerator       //Генератор планеты (Е�
 localizedName: "Meme"       //Название планеты
 parent: TestPlanet
 iconColor: ff9421       //Цвет иконки
-orbitRadius: 1000       //Радиус орбиты
+orbitRadius: 201       //Радиус орбиты
 hasAtmosphere: true       //Есть ли атмосфера?
 updateLighting: false
 atmosphereRadIn: 0.02
@@ -25,7 +25,7 @@ allowLaunchToNumbered: false      //Возможность приземлять�
 //В этом туториале этого не будет, если хотите узнать подробнее пишите в комментариях
 cloudMesh: {
   type: HexSkyMesh
-  planet: TestPlanet
+  planet: meme
   seed: 2
   speed: 3
   radius: 0.05
@@ -39,7 +39,7 @@ cloudMesh: {
 
 mesh: {
     type: NoiseMesh
-    planet: TestPlanet
+    planet: meme
     seed: 562697
     color1: d47420
     color2: b85804
@@ -54,25 +54,4 @@ mesh: {
 //Спрятанные предметы на планете
 //Если вам нужны ванильные предметы такие как Медь, Свинец, Бериллий - удалите все предметы из этого пункта
 hiddenItems: [
-    "copper"
-    "lead"
-    "scrap"
-    "graphite"
-    "coal"
-    "titanium"
-    "thorium"
-    "silicon"
-    "plastanium"
-    "phase-fabric"
-    "surge-alloy"
-    "spore-pod"
-    "blast-compound"
-    "pyratite"
-    "metaglass"
-    "beryllium"
-    "oxide"
-    "tungsten"
-    "carbide"
-    "fissile-matter"
-    "dormant-cyst"
 ]
