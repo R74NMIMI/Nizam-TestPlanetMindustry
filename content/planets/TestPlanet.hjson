@@ -2,7 +2,7 @@ generator: SerpuloPlanetGenerator       //Генератор планеты (Е�
 localizedName: "TestPlanet"       //Название планеты
 parent: sun
 iconColor: ff9421       //Цвет иконки
-orbitRadius: 1000       //Радиус орбиты
+orbitRadius: 27       //Радиус орбиты
 hasAtmosphere: true       //Есть ли атмосфера?
 updateLighting: false
 atmosphereRadIn: 0.02
